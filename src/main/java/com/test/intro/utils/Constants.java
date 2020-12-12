@@ -22,11 +22,11 @@ public class Constants {
 	public static final String MESSAGE = "message";
 	
 	/** The Constant MSG_INCORRECT_PASS. */
-	public static final String MSG_INCORRECT_PASS = "Invalid password format! Must contain 1 uppercase letter, 2 numbers and lowercase letters";
+	public static final String MSG_INCORRECT_PASS = "¡Password con formato invalido! Debe contener 1 mayuscula, minusculas y 2 numeros";
 	
 	/** The Constant MSG_INVALID_EMAIL. */
-	public static final String MSG_INVALID_EMAIL = "El correo es invalido!";
+	public static final String MSG_INVALID_EMAIL = "¡El correo es invalido!";
 	
 	/** The Constant MSG_ALREADY_USED_EMAIL. */
-	public static final String MSG_ALREADY_USED_EMAIL = "El correo ya está registrado";
+	public static final String MSG_ALREADY_USED_EMAIL = "El correo ya esta registrado";
 }
