@@ -46,7 +46,7 @@ public class Utils {
 	 * @param phones the phones
 	 * @return the phone list DTO
 	 */
-	public static List<PhonesDTO> getPhoneListDTO(Iterable<PhonesEntity> phones) {
+	public static List<PhonesDTO> getPhoneListDTO(List<PhonesEntity> phones) {
 		List<PhonesDTO> dtos = null;
 
 		if (phones != null && phones.iterator().hasNext()) {
