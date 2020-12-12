@@ -1,21 +1,20 @@
-# Getting Started
+## Instrucciones
+-Importar proyecto como "Proyecto gradle" y esperar a que se descarguen las dependencias necesarias. 
+-Abrir ventana de comandos desde la ruta de los fuentes del proyecto y ejecutar el siguiente comando para desplegar la aplicación:
+	./gradlew bootRun
+-Aplicación se levantara por defecto en puerto 8090
 
-### Reference Documentation
-For further reference, please consider the following sections:
+#### Para utilizar los endpoints de la aplicacion, se recomienda el uso de un cliente de Api como Postman
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.4.0/gradle-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.0/gradle-plugin/reference/html/#build-image)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.4.0/reference/htmlsingle/#boot-features-jpa-and-spring-data)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.4.0/reference/htmlsingle/#using-boot-devtools)
+### Agregar Usuario (método POST)
+Para agregar un usuario se debe acceder con el cliente de API a la siguiente url: 
+	http://localhost:8090/user/register 
+y enviar JSON con el siguiente formato: 
+{"name" : "Juan Rodriguez", "email" : " juan@rodriguez.com", "password" : "Hunter22", "phones" : [ {"number" : "1234567" ,"citycode" : "1" ,"contrycode" : "57"}]}
 
-### Guides
-The following guides illustrate how to use some features concretely:
 
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 
-### Additional Links
-These additional references should also help you:
-
-* [Gradle Build Scans â€“ insights for your project's build](https://scans.gradle.com#gradle)
-
+## Diagramas
+Los diagramas se encuentran en la raiz del proyecto
+	- Diagrama de componentes = diagrama_componente.png
+	- Diagrama de secuencia = diagrama_secuencia.png
